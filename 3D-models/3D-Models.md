@@ -4,7 +4,8 @@ For our hardware part of the project, we decided to 3D model some parts. Those p
 
 Here are some pictures of our 3D models:
 
-![Picture 1](pictures/Screenshot from 2021-12-03 19-51-33.png)
+![Picture 1]("pictures/Screenshot from 2021-12-03 19-51-33.png")
+
 ![Picture 2](pictures/Screenshot from 2021-12-03 19-51-51.png)
 ![Picture 3](pictures/Screenshot from 2021-12-03 19-52-06.png)
 ![Picture 4](pictures/Screenshot from 2021-12-03 19-53-49.png)
