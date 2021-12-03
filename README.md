@@ -1,3 +1,3 @@
 # eBon
 
-This project was developed during UniHack 2021.
+This project was developed during UniHack 2021. =/
