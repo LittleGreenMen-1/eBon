@@ -6,10 +6,12 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'services/auth.dart';
 import 'pages/wrapper.dart';
 import 'package:permission_handler/permission_handler.dart';
+import 'services/auth.dart';
 
 void main() async{
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
+
   runApp(const eBon());
 }
 
@@ -18,9 +20,9 @@ class eBon extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'eBon',
-      home: HomePage(),
+    return const MaterialApp(
+        debugShowCheckedModeBanner: false,
+        home: LogInPage(),
     );
   }
 }

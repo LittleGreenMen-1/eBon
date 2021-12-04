@@ -5,12 +5,8 @@ class AuthService {
 
   final FirebaseAuth _auth = FirebaseAuth.instance;
 
-  CustomUser? _createUserFromFirebase(User? user){
-    return user != null ? CustomUser(uid: user.uid) : null;
-  }
-
-  Stream<User?> get user {
-    return _auth.authStateChanges();
+  Future<String> getCurrentUID() async {
+    return _auth.currentUser!.uid;
   }
 
   Future signUp({required String email, required String password}) async {

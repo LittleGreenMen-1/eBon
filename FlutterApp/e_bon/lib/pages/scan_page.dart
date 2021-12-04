@@ -2,6 +2,8 @@ import 'dart:async';
 import 'dart:developer';
 import 'dart:io';
 
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:permission_handler/permission_handler.dart';
@@ -19,6 +21,8 @@ class ScanPage extends StatefulWidget {
 class _ScanPageState extends State<ScanPage> {
   Barcode? result;
   QRViewController? controller;
+
+  var storage = FirebaseStorage.instanceFor(bucket: 'gs://ebon-ae7b8.appspot.com');
   final GlobalKey qrKey = GlobalKey(debugLabel: 'QR');
 
   Dio downloader = Dio();
@@ -34,13 +38,43 @@ class _ScanPageState extends State<ScanPage> {
     controller!.resumeCamera();
   }
 
+  void UploadToFirebase(String filename) async {
+    String pdfName = filename
+        .substring(filename.lastIndexOf("/"), filename.lastIndexOf("."))
+        .replaceAll("/", "");
+
+    final Directory systemTempDir = Directory.systemTemp;
+
+    final byteData = await File(filename).readAsBytes();
+    final file = File('${systemTempDir.path}/$pdfName.pdf');
+
+    await file.writeAsBytes( byteData.buffer.asUint8List(byteData.offsetInBytes, byteData.lengthInBytes) );
+
+    TaskSnapshot snapshot = await storage
+        .ref()
+        .child("Receipts/$pdfName")
+        .putFile(file);
+
+    if (snapshot.state == TaskState.success) {
+      final String downloadUrl = await snapshot.ref.getDownloadURL();
+
+      print(downloadUrl);
+      await FirebaseFirestore.instance
+          .collection("Receipts")
+          .add({"url": downloadUrl, "name": pdfName});
+    } else {
+      print('Error from image repo ${snapshot.state.toString()}');
+      throw ('This file is not an image');
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
         children: <Widget>[
           Expanded(flex: 4, child: _buildQrView(context)),
-          Expanded(
+          /*Expanded(
             flex: 1,
             child: FittedBox(
               fit: BoxFit.contain,
@@ -120,9 +154,10 @@ class _ScanPageState extends State<ScanPage> {
                           onPressed: () async {
                             if (await Permission.storage.request().isGranted) {
                               String filename = basename(result!.code!);
+                              String full_path = '/storage/emulated/0/Download/eBon/receipts/${filename}.pdf';
 
-                              await downloader.download(result!.code!,
-                                  '/storage/emulated/0/Download/eBon/receipts/${filename}.pdf');
+                              await downloader.download(result!.code!, full_path);
+                              UploadToFirebase(full_path);
                             }
                           },
                           child: const Text('SCAAAn',
@@ -134,7 +169,7 @@ class _ScanPageState extends State<ScanPage> {
                 ],
               ),
             ),
-          )
+          )*/
         ],
       ),
     );
@@ -163,8 +198,21 @@ class _ScanPageState extends State<ScanPage> {
     controller.scannedDataStream.listen((scanData) {
       setState(() {
         result = scanData;
+        if(result != null) {
+          downloadQR();
+        }
       });
     });
+  }
+
+  void downloadQR() async{
+    if (await Permission.storage.request().isGranted) {
+      String filename = basename(result!.code!);
+      String full_path = '/storage/emulated/0/Download/eBon/receipts/${filename}.pdf';
+
+      await downloader.download(result!.code!, full_path);
+      UploadToFirebase(full_path);
+    }
   }
 
   void _onPermissionSet(BuildContext context, QRViewController ctrl, bool p) {
