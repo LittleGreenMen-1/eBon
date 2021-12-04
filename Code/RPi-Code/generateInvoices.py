@@ -58,7 +58,7 @@ page_layout.add(Paragraph("[Company Name]", font="Courier-bold", horizontal_alig
 page_layout.add(Paragraph("[Street Address]", font="Courier-bold", horizontal_alignment=Alignment.CENTERED))
 page_layout.add(Paragraph("[Phone]", font="Courier-bold", horizontal_alignment=Alignment.CENTERED))
 page_layout.add(Paragraph(f"{now.day}/{now.month}/{now.year} {datetime.now().strftime('%H:%M:%S')}", font="Courier-bold", horizontal_alignment=Alignment.CENTERED))
-page_layout.add(Paragraph(f"# {random.randint(1000, 10000)}", font="Courier-bold", horizontal_alignment=Alignment.CENTERED))
+page_layout.add(Paragraph(f"# {str(functions.generateRandomReceiptNumber())}", font="Courier-bold", horizontal_alignment=Alignment.CENTERED))
 
 
 # Invoice information table

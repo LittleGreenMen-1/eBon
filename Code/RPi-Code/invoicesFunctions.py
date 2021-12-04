@@ -93,3 +93,10 @@ def buildItemizedDescriptionTable(products):
     table_001.no_borders()
 
     return table_001
+
+def generateRandomReceiptNumber():
+    number = 0
+    for i in range(6):
+        number += random.randint(0, 10)
+        number *= 10
+    return number
