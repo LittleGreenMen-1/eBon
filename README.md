@@ -26,6 +26,6 @@ eBon has a quick integration in the infrastructure of stores (it's very easy to 
 
 ## About us 
 This project was developed during **UniHack 2021**. All of this was created created by 3 highschool studens from the *"Grigore Moisil" Highschool* from Timisoara, Romania:
-- Mihai Albu
-- Sirbu Andrei 
-- Vlad Tomici
+- Mihai Albu, 12th grade
+- Sirbu Andrei, 12th grade
+- Vlad Tomici, 10th grade
