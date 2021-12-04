@@ -4,8 +4,10 @@ import 'dart:io';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:permission_handler/permission_handler.dart';
 import 'package:qr_code_scanner/qr_code_scanner.dart';
 import 'package:dio/dio.dart';
+import 'package:path/path.dart';
 
 class ScanPage extends StatefulWidget {
   const ScanPage({Key? key}) : super(key: key);
@@ -46,8 +48,7 @@ class _ScanPageState extends State<ScanPage> {
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: <Widget>[
                   if (result != null)
-                    Text(
-                        'Data: ${result!.code}')
+                    Text('Data: ${result!.code}')
                   else
                     const Text('Scan a code'),
                   Row(
@@ -116,9 +117,13 @@ class _ScanPageState extends State<ScanPage> {
                       Container(
                         margin: const EdgeInsets.all(8),
                         child: ElevatedButton(
-                          onPressed: () async{
-                            await downloader.download(result!.code!, '/storage/emulated/0/Download/QRODE.pdf');
-                            print("FILEEEEEEEE  ");
+                          onPressed: () async {
+                            if (await Permission.storage.request().isGranted) {
+                              String filename = basename(result!.code!);
+
+                              await downloader.download(result!.code!,
+                                  '/storage/emulated/0/Download/eBon/receipts/${filename}.pdf');
+                            }
                           },
                           child: const Text('SCAAAn',
                               style: TextStyle(fontSize: 20)),
