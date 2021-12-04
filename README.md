@@ -1,6 +1,6 @@
 <img src="images/logo.png"
      alt="eBon logo"
-     style="float: left; margin-right: 10px; height: 64px; width: 64px;">
+     style="float: left; margin-right: 10px; height: 128px; width: 128px;">
 
 # eBon
 
