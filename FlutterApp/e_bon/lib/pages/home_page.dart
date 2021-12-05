@@ -20,6 +20,7 @@ class _HomePageState extends State<HomePage> {
   );
 
   //TODO: schimba style-ul la butoane dupa ce sunt apasate cu enum
+  //TODO: ADADADA
 
   @override
   Widget build(BuildContext context) {
