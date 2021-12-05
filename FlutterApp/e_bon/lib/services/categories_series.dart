@@ -24,8 +24,7 @@ class CategoriesSeries {
   };
 
   final String categorie;
-  final int totalRon;
-  final charts.Color barColor;
+  final double totalRon;
 
-  CategoriesSeries({required this.categorie, required this.totalRon, required this.barColor});
+  CategoriesSeries({required this.categorie, required this.totalRon});
 }
