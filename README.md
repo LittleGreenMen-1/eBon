@@ -30,7 +30,7 @@ The general checkout system can look like this:
 
 <img href="images/the-process.png"
      alt="checkout scheme"
-     style="float: left; margin-right: 10px; heigh: ; width: ;">
+     style="float: left; margin-right: 10px; heigh: 509; width: 1415;">
 
 
 #### The choice
