@@ -39,7 +39,6 @@ What is cool about eBon is that even if a person does not have our app installed
 
 We belive that we will not be able to eliminate all those physical recipts, but we belive that eBon can help a lot in this situation.
 
-
 ## Behind eBon
 
 ### Hardware 
@@ -72,7 +71,25 @@ On the software side, we developed a Flutter app and some scripts that represent
 #### ***Flutter app***
 This app represent the way the user interacts directly with our project. This is the place where you can add very easily your receipts to our platform and the place where you can see all your receipts and all your expenses.
 
+<img src="images/image1.jpeg"
+     alt="eBon logo"
+     style="float: left; margin-right: 10px;">
+
+<img src="images/image2.jpeg"
+     alt="eBon logo"
+     style="float: left; margin-right: 10px;">
+
+<img src="images/image3.jpeg"
+     alt="eBon logo"
+     style="float: left; margin-right: 10px;">
+
+
+
 #### ***The eBon ecosystem***
+
+<img src="images/ecosistem.jpg"
+     alt="eBon logo"
+     style="float: left; margin-right: 10px;">
 
 
 #### ***The Raspberry Pi code***
