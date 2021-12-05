@@ -62,6 +62,8 @@ Here's a look how our case should have looked like:
      
 You can take a look [here](3D-models) to see more pictures and the 3D files.
 
+So without our 3D printed piece we were not able to do the eBox as we wanted to be, but we improvised as good as we could.
+
 #### Software
 
 ## About us 
