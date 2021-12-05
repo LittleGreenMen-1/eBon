@@ -28,7 +28,7 @@ eBon has a quick integration in the infrastructure of stores (it's very easy to 
 
 The general checkout system can look like this:
 
-<img href="images/the-process.png"
+<img src="images/the-process.png"
      alt="checkout scheme"
      style="float: left; margin-right: 10px; height: 509; width: 1415;">
 
