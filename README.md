@@ -47,7 +47,7 @@ Instead of build our own checkout, we wanted to create a device that can work ex
 
 eBox is basically a Raspberry Pi 4 (4 GB RAM) connected to a phone that is used as a display.  
 
-<img href="images/ebox.jpg"
+<img src="images/ebox.jpg"
      alt="eBox picture"
      style="float: left; margin-right: 10px; height: 949; width: 712;">
 
@@ -56,7 +56,7 @@ We wanted to do the eBox as beautiful as we can. We developed a 3D model for the
 
 Here's a look how our case should have looked like:
 
-<img href="3D-models/pictures/Screenshot from 2021-12-03 19-51-33.png"
+<img src="3D-models/pictures/Screenshot from 2021-12-03 19-51-33.png"
      alt="eBox picture"
      style="float: left; margin-right: 10px; height: 1053; width: 1853;">
      
