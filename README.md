@@ -7,7 +7,6 @@
 eBon represents the digital portal of all the receipts that we are using during our everyday life. 
 Our main aim is to digitalize receipts, to offer customers a more technological experience in the stores and to help the environment during the process.
 
-
 ## Features
 Our project is divided into 2 main categories:
   - software 
@@ -17,10 +16,30 @@ In terms of software, we built a **Flutter application** (which is available for
 
 And in terms of hardware, we used a **Raspberry Pi 4 (4GB RAM)** with a mobile phone that is used as a display for the Raspberry Pi. 
 
-eBon has a quick integration in the infrastructure of stores (it's very easy to 'plug and play') and it does not require a lot from the customers. Also, eBon still offers the customers the posibily to receive clasic receipts.
+#### Status quo 
+At this moment, during the UniHack 2021 weekend, we were able to create this app for the Romanian stores market. What does this mean ? 
+
+Basically our project can be implemented just in Romania Right now. 
+
+If this project is able to survive, we really believe that if we are able to gather more stores from all over the world, eBon can be implemented anywhere.
+
+#### Integration
+eBon has a quick integration in the infrastructure of stores (it's very easy to 'plug and play') and it does not require a lot from the customers. 
+
+The general checkout system can look like this:
+
+<img href="images/the-process.png"
+     alt="checkout scheme"
+     style="float: left; margin-right: 10px; heigh: ; width: ;">
 
 
-## About the process
+#### The choice
+eBon still offers the customers the posibily to receive clasic receipts. The customer has always the choice between classic receipts or the digital form of them.
+
+What is cool about eBon is that even if a person does not have our app installed, he/she can stil scan the QR code and download the receipt as PDF file. 
+
+
+## Behind eBon
 
 
 
