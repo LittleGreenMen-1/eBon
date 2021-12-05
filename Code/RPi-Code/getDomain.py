@@ -9,9 +9,7 @@ servicii
 altele
 """
 
-from urllib.request import urlopen, Request
-from bs4 import BeautifulSoup
-
+"""
 CAEN_to_domain = {
     "01": "Agricultura, vanatoare si servicii anexe",
     "02": "Silvicultura si exploatare forestiera",
@@ -102,7 +100,102 @@ CAEN_to_domain = {
     "98": "Activitati ale gospodariilor private de producere de bunuri si servicii destinate consumului propriu",
     "99": "Activitati ale organizatiilor si organismelor extrateritoriale",
 }
+"""
 
+CAEN_to_domain = {
+    "01": "divertisment",
+    "02": "altele",
+    "03": "divertisment",
+    "05": "servicii",
+    "06": "servicii",
+    "07": "servicii",
+    "08": "altele",
+    "09": "altele",
+    "10": "supermarket",
+    "11": "supermarket",
+    "12": "supermarket",
+    "13": "altele",
+    "14": "altele",
+    "15": "servicii",
+    "16": "servicii",
+    "17": "altele",
+    "18": "servicii",
+    "19": "servicii",
+    "20": "altele",
+    "21": "sanatatae",
+    "22": "servicii",
+    "23": "servicii",
+    "24": "altele",
+    "25": "servicii",
+    "26": "servicii",
+    "27": "servicii",
+    "28": "servicii",
+    "29": "servicii",
+    "30": "servicii",
+    "31": "servicii",
+    "32": "serviciii",
+    "33": "servicii",
+    "35": "servicii",
+    "36": "servicii",
+    "37": "servicii",
+    "38": "servicii",
+    "39": "servicii",
+    "41": "servitii",
+    "42": "servicii",
+    "43": "servicii",
+    "45": "servicii",
+    "46": "servicii",
+    "47": "altele",
+    "49": "transport",
+    "50": "transport",
+    "51": "transport",
+    "52": "transport",
+    "53": "servicii",
+    "55": "servicii",
+    "56": "restaurante",
+    "58": "servicii",
+    "59": "divertisment",
+    "60": "servicii",
+    "61": "servicii",
+    "62": "servicii",
+    "63": "servicii",
+    "64": "servicii",
+    "65": "servicii",
+    "66": "servicii",
+    "68": "servicii",
+    "69": "servicii",
+    "70": "servicii",
+    "71": "servicii",
+    "72": "servicii",
+    "73": "divertisment",
+    "74": "altele",
+    "75": "sanatate",
+    "77": "servicii",
+    "78": "servicii",
+    "79": "servicii",
+    "80": "servicii",
+    "81": "servicii",
+    "82": "servicii",
+    "84": "servicii",
+    "85": "servicii",
+    "86": "sanatate",
+    "87": "sanatate",
+    "88": "sanatate",
+    "90": "divertisment",
+    "91": "divertisment",
+    "92": "divertisment",
+    "93": "divertisment",
+    "94": "divertisment",
+    "95": "servicii",
+    "96": "servicii",
+    "97": "servicii",
+    "98": "altele",
+    "99": "altele"
+}
+
+from urllib.request import urlopen, Request
+from bs4 import BeautifulSoup
+import re
 
 def getDomenii():
     url = "https://www.infoquick.ro/verificare-firme-domeniu-activitate"
@@ -143,14 +236,12 @@ def extractFromCUI(cui):
     content_div = CAEN_div.findChildren("div", recursive=True)[2]
     CAEN = content_div.findChildren("span", recursive=True)[1].text
 
-    import re
-
     CAEN = re.findall("[0-9]{4}", CAEN)[0]
     domeniu = CAEN_to_domain[CAEN[0:2]]
 
     print(domeniu)
 
-
+"""
 def extractDescription(cui):
     url = f"https://www.risco.ro/verifica-firma/{name}-cui-{cui}"
     request = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
@@ -178,5 +269,7 @@ def extractDescription(cui):
             word += text[i]
 
     print(sentence)
+
+"""
 
 extractFromCUI("20119287")
