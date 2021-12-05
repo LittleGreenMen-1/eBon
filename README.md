@@ -39,6 +39,10 @@ What is cool about eBon is that even if a person does not have our app installed
 
 We belive that we will not be able to eliminate all those physical recipts, but we belive that eBon can help a lot in this situation.
 
+## Setup eBon 
+1. plug the eBox USB in the computer that is using a checkout software
+2. 
+
 
 ## Behind eBon
 
