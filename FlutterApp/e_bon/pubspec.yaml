@@ -45,6 +45,10 @@ dependencies:
   permission_handler: ^8.3.0
   charts_flutter: ^0.12.0
   pie_chart: ^5.1.0
+  http: ^0.13.4
+  
+  syncfusion_flutter_pdf: ^18.3.53-beta
+  advance_pdf_viewer: any
 
 dev_dependencies:
   flutter_test:
