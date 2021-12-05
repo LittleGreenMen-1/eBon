@@ -45,10 +45,18 @@ dependencies:
   http: ^0.13.4
   permission_handler: ^8.3.0
   charts_flutter: ^0.12.0
+<<<<<<< HEAD
 
   syncfusion_flutter_pdf: ^18.3.53-beta
   advance_pdf_viewer: any
 
+=======
+  pie_chart: ^5.1.0
+  http: ^0.13.4
+  
+  syncfusion_flutter_pdf: ^18.3.53-beta
+  advance_pdf_viewer: any
+>>>>>>> 4c6b83e8a59bed6464007376362d0ad3f86a2f25
 
 dev_dependencies:
   flutter_test:
