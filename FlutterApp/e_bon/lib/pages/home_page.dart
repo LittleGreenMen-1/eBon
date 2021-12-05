@@ -15,37 +15,63 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
 
+  final PageController _controller = PageController(
+    initialPage: 1,
+  );
+
+  //TODO: schimba style-ul la butoane dupa ce sunt apasate cu enum
+
   @override
   Widget build(BuildContext context) {
-    return DefaultTabController(
-      length: 3,
-      initialIndex: 1,
-      child: Scaffold(
-        appBar: AppBar(
-          title: Text('eBon'),
-          centerTitle: true,
-          /*actions: [
-            IconButton(
-                onPressed: () async{
-                  await _auth.signOut();
-                },
-                icon: const Icon(Icons.logout))
-          ],*/
-          bottom: const TabBar(
-            tabs: [
-              Tab(text: 'Bonuri'),
-              Tab(text: 'Scan'),
-              Tab(text: 'Statistici')
-            ],
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('eBon'),
+        centerTitle: true,
+        /*actions: [
+          IconButton(
+              onPressed: () async{
+                await _auth.signOut();
+              },
+              icon: const Icon(Icons.logout))
+        ],*/
+      ),
+      body: Column(
+        children: <Widget>[
+          Expanded(
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: <Widget>[
+                HomeButton(buttonTitle: 'Bonuri', onTap: (){
+                  setState(() {
+                    _controller.animateToPage(0, duration: kDuration, curve: kCurve);
+                  });
+                },),
+                HomeButton(buttonTitle: 'Scan', onTap: (){
+                  setState(() {
+                    _controller.animateToPage(1, duration: kDuration, curve: kCurve);
+                  });
+                },),
+                HomeButton(buttonTitle: 'Statistici', onTap: (){
+                  setState(() {
+                    _controller.animateToPage(2, duration: kDuration, curve: kCurve);
+                  });
+                },),
+              ],
+            ),
           ),
-        ),
-        body: const TabBarView(
-          children: [
-            ReceiptsPage(),
-            ScanPage(),
-            StatsPage()
-          ],
-        ),
+          Expanded(
+            flex: 12,
+            child: PageView(
+              controller: _controller,
+              children: const [
+                ReceiptsPage(),
+                ScanPage(),
+                StatsPage()
+              ],
+            ),
+          ),
+        ],
       ),
     );
   }
