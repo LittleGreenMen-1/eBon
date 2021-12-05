@@ -30,8 +30,7 @@ The general checkout system can look like this:
 
 <img href="images/the-process.png"
      alt="checkout scheme"
-     style="float: left; margin-right: 10px; heigh: 509; width: 1415;">
-
+     style="float: left; margin-right: 10px; height: 509; width: 1415;">
 
 #### The choice
 eBon still offers the customers the posibily to receive clasic receipts. The customer has always the choice between classic receipts or the digital form of them.
@@ -41,7 +40,29 @@ What is cool about eBon is that even if a person does not have our app installed
 
 ## Behind eBon
 
+#### Hardware 
+We realised that integrating eBon as a useful solution for the market requires an efficient and affordable way.
 
+Instead of build our own checkout, we wanted to create a device that can work exactly as a thermal printer, so this is where eBox comes to our attention.
+
+eBox is basically a Raspberry Pi 4 (4 GB RAM) connected to a phone that is used as a display.  
+
+<img href="images/ebox.jpg"
+     alt="eBox picture"
+     style="float: left; margin-right: 10px; height: 949; width: 712;">
+
+##### The 3D printing story
+We wanted to do the eBox as beautiful as we can. We developed a 3D model for the eBox case, but unfortunately we were not able to print all the pieces that we needed. 
+
+Here's a look how our case should have looked like:
+
+<img href="3D-models/pictures/Screenshot from 2021-12-03 19-51-33.png"
+     alt="eBox picture"
+     style="float: left; margin-right: 10px; height: 1053; width: 1853;">
+     
+You can take a look [here](3D-models) to see more pictures and the 3D files.
+
+#### Software
 
 ## About us 
 This project was developed during **UniHack 2021**. All of this was created created by 3 highschool studens from the *"Grigore Moisil" Highschool* from Timisoara, Romania:
