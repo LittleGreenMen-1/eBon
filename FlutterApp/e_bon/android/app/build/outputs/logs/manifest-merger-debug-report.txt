@@ -1,19 +1,19 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:1:1-48:12
-INJECTED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:1:1-48:12
-INJECTED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:1:1-48:12
-INJECTED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:1:1-48:12
-MERGED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:1:1-48:12
-MERGED from [:firebase_auth] /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-15:12
-MERGED from [:firebase_storage] /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-15:12
-MERGED from [:cloud_firestore] /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-15:12
-MERGED from [:firebase_core] /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-15:12
-MERGED from [:sqflite] /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/build/sqflite/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [:path_provider_android] /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [:advance_pdf_viewer] /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/build/advance_pdf_viewer/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [:qr_code_scanner] /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/build/qr_code_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-10:12
-MERGED from [:permission_handler] /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/build/permission_handler/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+ADDED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:1:1-48:12
+INJECTED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:1:1-48:12
+INJECTED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:1:1-48:12
+INJECTED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:1:1-48:12
+MERGED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:1:1-48:12
+MERGED from [:firebase_auth] /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_storage] /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:cloud_firestore] /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_core] /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:sqflite] /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/build/sqflite/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:path_provider_android] /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:advance_pdf_viewer] /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/build/advance_pdf_viewer/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:qr_code_scanner] /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/build/qr_code_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-10:12
+MERGED from [:permission_handler] /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/build/permission_handler/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /home/mihai/.gradle/caches/transforms-3/cf2584f684f05fdb291e5e5c406fbf5e/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:17:1-83:12
 MERGED from [com.google.firebase:firebase-firestore:24.0.0] /home/mihai/.gradle/caches/transforms-3/c63c7172284b9b83d7602c778e6076ed/transformed/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:2:1-26:12
 MERGED from [com.google.firebase:firebase-storage:20.0.0] /home/mihai/.gradle/caches/transforms-3/0f14ca07121c9ad21cb1421a5b1be311/transformed/jetified-firebase-storage-20.0.0/AndroidManifest.xml:15:1-39:12
@@ -63,27 +63,27 @@ MERGED from [io.grpc:grpc-android:1.41.0] /home/mihai/.gradle/caches/transforms-
 MERGED from [com.journeyapps:zxing-android-embedded:4.2.0] /home/mihai/.gradle/caches/transforms-3/daad2d334f09988f96a0559949e1119f/transformed/jetified-zxing-android-embedded-4.2.0/AndroidManifest.xml:17:1-56:12
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /home/mihai/.gradle/caches/transforms-3/046a1b78220d11f8adc471cb72b9ec72/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/mihai/.gradle/caches/transforms-3/5ef6307bc0c212445f892c52f43a3792/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/debug/AndroidManifest.xml:1:1-7:12
-INJECTED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/debug/AndroidManifest.xml:1:1-7:12
-INJECTED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 	package
-		ADDED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:2:5-32
-		INJECTED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/debug/AndroidManifest.xml
+		ADDED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:2:5-32
+		INJECTED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/debug/AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:1:1-48:12
-		INJECTED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:1:1-48:12
+		INJECTED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/debug/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:1:1-48:12
-		INJECTED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:1:1-48:12
+		INJECTED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:4:5-66
-MERGED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:4:5-66
-MERGED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:4:5-66
+ADDED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:4:5-66
+MERGED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:4:5-66
+MERGED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:4:5-66
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /home/mihai/.gradle/caches/transforms-3/cf2584f684f05fdb291e5e5c406fbf5e/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /home/mihai/.gradle/caches/transforms-3/cf2584f684f05fdb291e5e5c406fbf5e/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-firestore:24.0.0] /home/mihai/.gradle/caches/transforms-3/c63c7172284b9b83d7602c778e6076ed/transformed/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:14:5-67
@@ -91,13 +91,13 @@ MERGED from [com.google.firebase:firebase-firestore:24.0.0] /home/mihai/.gradle/
 MERGED from [com.google.firebase:firebase-storage:20.0.0] /home/mihai/.gradle/caches/transforms-3/0f14ca07121c9ad21cb1421a5b1be311/transformed/jetified-firebase-storage-20.0.0/AndroidManifest.xml:27:5-67
 MERGED from [com.google.firebase:firebase-storage:20.0.0] /home/mihai/.gradle/caches/transforms-3/0f14ca07121c9ad21cb1421a5b1be311/transformed/jetified-firebase-storage-20.0.0/AndroidManifest.xml:27:5-67
 	android:name
-		ADDED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:4:22-64
+		ADDED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:4:22-64
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:5:5-76
+ADDED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:5:5-76
 	android:name
-		ADDED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:5:22-73
+		ADDED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:5:22-73
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:6:5-79
+ADDED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:6:5-79
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /home/mihai/.gradle/caches/transforms-3/cf2584f684f05fdb291e5e5c406fbf5e/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /home/mihai/.gradle/caches/transforms-3/cf2584f684f05fdb291e5e5c406fbf5e/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-firestore:24.0.0] /home/mihai/.gradle/caches/transforms-3/c63c7172284b9b83d7602c778e6076ed/transformed/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:13:5-79
@@ -107,25 +107,25 @@ MERGED from [com.google.firebase:firebase-storage:20.0.0] /home/mihai/.gradle/ca
 MERGED from [io.grpc:grpc-android:1.41.0] /home/mihai/.gradle/caches/transforms-3/5946e732a98568ae11924d57f00a9387/transformed/jetified-grpc-android-1.41.0/AndroidManifest.xml:11:5-79
 MERGED from [io.grpc:grpc-android:1.41.0] /home/mihai/.gradle/caches/transforms-3/5946e732a98568ae11924d57f00a9387/transformed/jetified-grpc-android-1.41.0/AndroidManifest.xml:11:5-79
 	android:name
-		ADDED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:6:22-76
+		ADDED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:6:22-76
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:7:5-80
+ADDED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:7:5-80
 	android:name
-		ADDED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:7:22-77
+		ADDED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:7:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:8:5-81
+ADDED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:8:5-81
 	android:name
-		ADDED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:8:22-78
+		ADDED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:8:22-78
 application
-ADDED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:10:4-47:19
-MERGED from [:firebase_auth] /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_auth] /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_storage] /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_storage] /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-13:19
-MERGED from [:cloud_firestore] /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-13:19
-MERGED from [:cloud_firestore] /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_core] /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_core] /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-13:19
+ADDED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:10:4-47:19
+MERGED from [:firebase_auth] /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_auth] /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_storage] /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_storage] /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:cloud_firestore] /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:cloud_firestore] /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-13:19
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /home/mihai/.gradle/caches/transforms-3/cf2584f684f05fdb291e5e5c406fbf5e/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:26:5-81:19
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /home/mihai/.gradle/caches/transforms-3/cf2584f684f05fdb291e5e5c406fbf5e/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:26:5-81:19
 MERGED from [com.google.firebase:firebase-firestore:24.0.0] /home/mihai/.gradle/caches/transforms-3/c63c7172284b9b83d7602c778e6076ed/transformed/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:16:5-24:19
@@ -155,73 +155,73 @@ MERGED from [com.journeyapps:zxing-android-embedded:4.2.0] /home/mihai/.gradle/c
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.5.0] /home/mihai/.gradle/caches/transforms-3/80d090194b19f099ba4e166c7f0f71f0/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:11:9-30
+		ADDED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:11:9-30
 	android:icon
-		ADDED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:12:9-43
+		ADDED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:12:9-43
 activity#com.example.e_bon.MainActivity
-ADDED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:13:9-41:20
+ADDED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:13:9-41:20
 	android:launchMode
-		ADDED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:15:13-43
+		ADDED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:15:13-43
 	android:hardwareAccelerated
-		ADDED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:18:13-47
+		ADDED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:18:13-47
 	android:windowSoftInputMode
-		ADDED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:19:13-55
+		ADDED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:19:13-55
 	android:configChanges
-		ADDED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:17:13-163
+		ADDED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:17:13-163
 	android:theme
-		ADDED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:16:13-47
+		ADDED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:16:13-47
 	android:name
-		ADDED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:14:13-41
+		ADDED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:14:13-41
 meta-data#io.flutter.embedding.android.NormalTheme
-ADDED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:24:13-27:17
+ADDED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:24:13-27:17
 	android:resource
-		ADDED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:26:15-52
+		ADDED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:26:15-52
 	android:name
-		ADDED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:25:15-70
+		ADDED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:25:15-70
 meta-data#io.flutter.embedding.android.SplashScreenDrawable
-ADDED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:33:13-36:17
+ADDED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:33:13-36:17
 	android:resource
-		ADDED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:35:15-61
+		ADDED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:35:15-61
 	android:name
-		ADDED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:34:15-79
+		ADDED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:34:15-79
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:37:13-40:29
+ADDED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:37:13-40:29
 action#android.intent.action.MAIN
-ADDED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:38:17-68
+ADDED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:38:17-68
 	android:name
-		ADDED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:38:25-66
+		ADDED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:38:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:39:17-76
+ADDED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:39:17-76
 	android:name
-		ADDED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:39:27-74
+		ADDED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:39:27-74
 meta-data#flutterEmbedding
-ADDED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:44:9-46:33
+ADDED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:44:9-46:33
 	android:value
-		ADDED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:46:13-30
+		ADDED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:46:13-30
 	android:name
-		ADDED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:45:13-44
+		ADDED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml:45:13-44
 uses-sdk
-INJECTED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml
-INJECTED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml
-MERGED from [:firebase_auth] /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:firebase_auth] /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:firebase_storage] /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:firebase_storage] /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:cloud_firestore] /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:cloud_firestore] /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:firebase_core] /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:firebase_core] /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:sqflite] /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/build/sqflite/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:sqflite] /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/build/sqflite/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:path_provider_android] /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:path_provider_android] /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:advance_pdf_viewer] /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/build/advance_pdf_viewer/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:advance_pdf_viewer] /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/build/advance_pdf_viewer/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:qr_code_scanner] /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/build/qr_code_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-8:67
-MERGED from [:qr_code_scanner] /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/build/qr_code_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-8:67
-MERGED from [:permission_handler] /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/build/permission_handler/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:permission_handler] /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/build/permission_handler/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+INJECTED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml
+MERGED from [:firebase_auth] /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth] /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_storage] /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_storage] /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/build/sqflite/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/build/sqflite/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:advance_pdf_viewer] /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/build/advance_pdf_viewer/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:advance_pdf_viewer] /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/build/advance_pdf_viewer/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:qr_code_scanner] /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/build/qr_code_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-8:67
+MERGED from [:qr_code_scanner] /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/build/qr_code_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-8:67
+MERGED from [:permission_handler] /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/build/permission_handler/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:permission_handler] /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/build/permission_handler/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /home/mihai/.gradle/caches/transforms-3/cf2584f684f05fdb291e5e5c406fbf5e/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:21:5-44
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /home/mihai/.gradle/caches/transforms-3/cf2584f684f05fdb291e5e5c406fbf5e/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:21:5-44
 MERGED from [com.google.firebase:firebase-firestore:24.0.0] /home/mihai/.gradle/caches/transforms-3/c63c7172284b9b83d7602c778e6076ed/transformed/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:7:5-9:41
@@ -320,24 +320,24 @@ MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /home/mihai/
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /home/mihai/.gradle/caches/transforms-3/046a1b78220d11f8adc471cb72b9ec72/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/mihai/.gradle/caches/transforms-3/5ef6307bc0c212445f892c52f43a3792/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/mihai/.gradle/caches/transforms-3/5ef6307bc0c212445f892c52f43a3792/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
-INJECTED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/debug/AndroidManifest.xml
-INJECTED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/debug/AndroidManifest.xml
+INJECTED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/debug/AndroidManifest.xml
+INJECTED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/debug/AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [:qr_code_scanner] /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/build/qr_code_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-64
+		ADDED from [:qr_code_scanner] /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/build/qr_code_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-64
 	android:targetSdkVersion
-		INJECTED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/debug/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/android/app/src/debug/AndroidManifest.xml
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [:firebase_auth] /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_storage] /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_storage] /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-12:19
-MERGED from [:cloud_firestore] /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-12:19
-MERGED from [:cloud_firestore] /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_core] /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_core] /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-12:19
+ADDED from [:firebase_auth] /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_storage] /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_storage] /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:cloud_firestore] /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:cloud_firestore] /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-12:19
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /home/mihai/.gradle/caches/transforms-3/cf2584f684f05fdb291e5e5c406fbf5e/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:74:9-80:19
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /home/mihai/.gradle/caches/transforms-3/cf2584f684f05fdb291e5e5c406fbf5e/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:74:9-80:19
 MERGED from [com.google.firebase:firebase-firestore:24.0.0] /home/mihai/.gradle/caches/transforms-3/c63c7172284b9b83d7602c778e6076ed/transformed/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:17:9-23:19
@@ -353,31 +353,31 @@ MERGED from [com.google.firebase:firebase-common:20.0.0] /home/mihai/.gradle/cac
 	android:directBootAware
 		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/mihai/.gradle/caches/transforms-3/040553dd0106c9ab4bf2d17d5f6a4e52/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
 	android:name
-		ADDED from [:firebase_auth] /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:8:18-89
+		ADDED from [:firebase_auth] /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:8:18-89
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar
-ADDED from [:firebase_auth] /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-11:85
+ADDED from [:firebase_auth] /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-11:85
 	android:value
-		ADDED from [:firebase_auth] /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:11:17-82
+		ADDED from [:firebase_auth] /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:11:17-82
 	android:name
-		ADDED from [:firebase_auth] /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:17-124
+		ADDED from [:firebase_auth] /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:17-124
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar
-ADDED from [:firebase_storage] /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-11:85
+ADDED from [:firebase_storage] /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-11:85
 	android:value
-		ADDED from [:firebase_storage] /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:11:17-82
+		ADDED from [:firebase_storage] /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:11:17-82
 	android:name
-		ADDED from [:firebase_storage] /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:10:17-126
+		ADDED from [:firebase_storage] /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:10:17-126
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar
-ADDED from [:cloud_firestore] /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-11:85
+ADDED from [:cloud_firestore] /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-11:85
 	android:value
-		ADDED from [:cloud_firestore] /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:11:17-82
+		ADDED from [:cloud_firestore] /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:11:17-82
 	android:name
-		ADDED from [:cloud_firestore] /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:10:17-134
+		ADDED from [:cloud_firestore] /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:10:17-134
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
-ADDED from [:firebase_core] /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-11:85
+ADDED from [:firebase_core] /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-11:85
 	android:value
-		ADDED from [:firebase_core] /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:17-82
+		ADDED from [:firebase_core] /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:17-82
 	android:name
-		ADDED from [:firebase_core] /home/mihai/Dev/FlutterProjects/FlutterApp/e_bon/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:10:17-124
+		ADDED from [:firebase_core] /home/mihai/Dev/FlutterProjects/eBon/FlutterApp/e_bon/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:10:17-124
 activity#com.google.firebase.auth.internal.GenericIdpActivity
 ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/mihai/.gradle/caches/transforms-3/cf2584f684f05fdb291e5e5c406fbf5e/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
 	android:excludeFromRecents
