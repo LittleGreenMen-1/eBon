@@ -71,6 +71,9 @@ On the software side, we developed a Flutter app and some scripts that represent
 #### ***Flutter app***
 This app represent the way the user interacts directly with our project. This is the place where you can add very easily your receipts to our platform and the place where you can see all your receipts and all your expenses.
 
+![alt-text-1](images/image1.jpeg "title-1") ![alt-text-2](images/image2.jpeg "title-2")
+![alt-text-1](images/image3.jpeg "title-1") 
+
 <img src="images/image1.jpeg"
      alt="eBon logo"
      style="float: left; margin-right: 10px;">
