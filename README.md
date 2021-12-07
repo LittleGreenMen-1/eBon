@@ -71,11 +71,11 @@ On the software side, we developed a Flutter app and some scripts that represent
 #### ***Flutter app***
 This app represent the way the user interacts directly with our project. This is the place where you can add very easily your receipts to our platform and the place where you can see all your receipts and all your expenses.
 
-Images 1                   |  Images 2
-:-------------------------:|:-------------------------:
-![](images/image1.jpeg)    |  ![](images/image2.jpeg)
-![alt-text-1](images/image3.jpeg "title-1") 
-
+Sign-in screen                     |  Scan QR code page
+:---------------------------------:|:-------------------------:
+![](images/image1.jpeg)            |  ![](images/image2.jpeg)
+Stats about your expenses          |  Our team logo
+![](images/image3.jpeg "title-1")  |  ![](images/logo.png)
 
 #### ***The eBon ecosystem***
 
